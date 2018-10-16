@@ -1,0 +1,23 @@
+#left-eye {
+  animation: eyeballs 3s linear infinite;
+}
+
+#right-eye {
+  animation: eyeballs 3s linear infinite;
+}
+
+@keyframes eyeballs {
+
+  0% {
+    transform: translateX(-5px);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX(-5px);
+  }
+
+}
