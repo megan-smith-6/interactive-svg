@@ -1,8 +1,4 @@
-#left-eye {
-  animation: eyeballs 3s linear infinite;
-}
-
-#right-eye {
+#left-eye, #right-eye {
   animation: eyeballs 3s linear infinite;
 }
 
@@ -20,4 +16,14 @@
     transform: translateX(-5px);
   }
 
+}
+
+#right-ear,
+#left-ear {
+  transition: all .5s ease-in;
+}
+
+#bear:hover #left-ear,
+#bear:hover #right-ear {
+  transform: translateY(-5px);
 }
